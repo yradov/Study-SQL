@@ -6,11 +6,11 @@
 - docker run --rm -p 9090:80 mysql-db-study
 
 - docker-compose up --build
-- docker-compose -f docker-compose-mysql.yml up 
 - docker-compose up
 - docker-compose down
 
 
-## USES
+## USAGE
 - http://localhost:8081/ - phpMyAdmin url
-- docker exec -it mysql-db-study sh - enter to the container
+- To connect external clients to MySql, use port 3307
+- docker exec -it mysql-db-study sh - enter to the container with DB
