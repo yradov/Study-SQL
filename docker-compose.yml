@@ -3,16 +3,17 @@ version: "3"
 services:
   # Сервис для базы данных MySQL
   db:
-    image: mysql:latest
+    # image: mysql:latest
+    image: mysql-db-study
     container_name: mysql-db-study
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: geobud
+      MYSQL_DATABASE: ComputerCompany
     ports:
       - "3307:3306"
     volumes:
-    - db-data:/var/lib/mysql
+    - mysql-db-study-data:/var/lib/mysql
 
   # Сервис для phpMyAdmin
   phpmyadmin:
@@ -27,4 +28,4 @@ services:
     - db
 
 volumes:
-  db-data:
+  mysql-db-study-data:
