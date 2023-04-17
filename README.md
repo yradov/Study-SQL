@@ -5,8 +5,7 @@
 - docker build -t mysql-db-study .
 - docker run --rm -p 9090:80 mysql-db-study
 
-- docker-compose up --build
-- docker-compose up
+- docker-compose up 
 - docker-compose down
 
 
