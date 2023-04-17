@@ -1,0 +1,1 @@
+Find the printer models having the highest price. Result set: model, price.

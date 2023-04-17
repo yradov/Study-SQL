@@ -1,0 +1,2 @@
+Find the makers of the cheapest color printers.
+Result set: maker, price

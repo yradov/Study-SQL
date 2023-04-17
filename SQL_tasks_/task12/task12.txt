@@ -1,0 +1,3 @@
+Get hard drive capacities that are identical for two or more PCs.
+Result set: hd.
+Найдите размеры жестких дисков, совпадающих у двух и более PC. Вывести: HD
